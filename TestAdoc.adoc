@@ -1,1 +1,111 @@
-= AsciiDoc Preview
+
+== AsciiDoc Preview
+
+*bold*
+**b**old
+
+_italic_
+__i__talic
+
+`monospace`
+
+The `'90s popularized a new form of music known as "`grunge`" rock.
+Its influence extended well beyond music.
+
+= Writing posts
+:awestruct-layout: base
+:showtitle:
+:prev_section: defining-frontmatter
+:next_section: creating-pages
+
+'''
+'''
+
+TIP: You can add line numbers to source listings by adding the word `numbered` in the attribute list after the language name.
+
+'''
+
+.Lightweight Markup
+****
+Writing languages that let you type less and express more.
+****
+
+'''
+
+include::intro.adoc[]
+
+'''
+
+:home: https://example.org
+
+Go {home}[Home].
+
+'''
+
+.Grocery list
+* Milk
+* Eggs
+* Bread
+
+'''
+
+http://asciidoc.org[AsciiDoc]
+
+
+link:user-guide.html[user guide]
+xref:user-guide.adoc[user guide]
+
+link:{site-url}/assets/mydoc.pdf[get the PDF]
+
+See <<_usage>>.
+
+== Usage
+
+[#usage]
+== Usage
+
+. [[step-1]]Download the software
+
+image:ogo.PNG[Logo]
+
+image::ogo.png[Logo]
+
+== Heading 2
+
+____
+Quoted text.
+
+Another paragraph in quote.
+____
+
+....
+$ gem install asciidoctor
+....
+
+
+​   $ gem install asciidocto
+
+[source,java]
+----
+public class Person {
+  private String name;
+  public Person(String name) {
+    this.name = name;
+  }
+}
+----
+
+
+* apples
+* oranges
+** temple
+** navel
+* bananas
+
+== ECCO
+
+. first
+. second
+. third
+
+'''
